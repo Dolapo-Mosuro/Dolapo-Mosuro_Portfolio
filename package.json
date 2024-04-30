@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio",
+    "build-gh": "parcel build --public-url 'https://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
