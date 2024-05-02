@@ -1,48 +1,19 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-JavaScript Portfolio Site with GitHub Codespaces and Copilot
-View these instructions in Spanish or Portuguese
+## The repo contains the following:
 
-Create, customize and deploy your own portfolio website in minutes. ✨
+- .devcontainer
+ ** .devcontainer/Dockerfile: Configuration file used by Codespaces to determine operating system and other details.
+- .devcontainer/devcontainer.json: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions. **
+- /src: HTML, JS and CSS files used to build your portfolio site.
+- .eslintrc: Settings for ESLint that is included for code consistency and quality.
+- .prettierrc: Settings for Prettier that is used to format code.
+- package.json and package-lock.json: Defines the project information for Node.js, dependent packages and the versions needed of each.
 
-In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your Codespace environment and start customizing your site using Copilot to help you write code faster.
-
-Who is this for? Anyone looking to create a portfolio site, learn web development, or test out Codespaces.
-How much experience do you need? Zero. You decide how much you want to customize based on your experience, and time available.
-Tools needed: None. No need to install anything! All you need is a web browser.
-Prerequisites: None. This template includes your development environment and deployable web app for you to create your own site.
-About this portfolio template
-In this "choose your own adventure" template portfolio, we have a React based web application ready for you to easily customize and deploy using only your web browser.
-
-JavaScript profile web application
-
-Quick Start
-Click the Use this Template button and then Create a new repository as can be seen in the image below. Note: Make sure you've signed in to GitHub otherwise, you wouldn't see the Use this Template button. JavaScript profile web application
-Select the repository owner (e.g. your GitHub account)
-Enter a unique name for your new repository
-Click the Code button
-Click Create Codespace on main button
-Customize your portfolio site with Copilot
-Deploy your site
-🎥 To learn more about Codespaces, watch our video tutorial series
-
-🗃️ JavaScript Portfolio template
-This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
-
-The repo contains the following:
-
-/.devcontainer
-.devcontainer/Dockerfile: Configuration file used by Codespaces to determine operating system and other details.
-.devcontainer/devcontainer.json: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-/src: HTML, JS and CSS files used to build your portfolio site.
-.eslintrc: Settings for ESLint that is included for code consistency and quality.
-.prettierrc: Settings for Prettier that is used to format code.
-package.json and package-lock.json: Defines the project information for Node.js, dependent packages and the versions needed of each.
-
-🚀 Getting started
+### 🚀 Getting started
 This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
 
-Your development environment is all set for you to start. Based on our JavaScript Codespace Template (React), here is what is already setup and ready for you to use:
+Your development environment is all set for you to start. Here is what is already setup and ready for you to use:
 
 Simple React application with components for each section of the portfolio site
 Parcel in place to build your site when deploying
@@ -56,10 +27,10 @@ Navigate to the main page of the newly created repository.
 
 Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
-Create codespace
+#### Create codespace
 Wait as GitHub initializes the Codespace.
 
-Codespace initializing
+#### Codespace initializing
 When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing npm install. Once the package installs are completed, Codespaces will execute npm start to start your web application running within your Codespace.
 
 When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
