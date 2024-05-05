@@ -1,9 +1,9 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Portfolio",
   "source": "src/index.html",
-  "homepage": "http://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio",
+  "homepage": "http://dolapo-mosuro.github.io/Dolapo-Mosuro",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
