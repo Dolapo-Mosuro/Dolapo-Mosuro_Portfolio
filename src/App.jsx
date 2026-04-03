@@ -26,7 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "Dolapo Mosuro",
   title: "Web Designer & Software Developer",
-  email: "mosurodolapo@gmail..com",
+  email: "mosurodolapo@gmail.com",
   gitHub: "dolapo-mosuro",
   linkedIn: "dolapo mosuro",
   medium: "https://medium.com/@dolapomosuro",
