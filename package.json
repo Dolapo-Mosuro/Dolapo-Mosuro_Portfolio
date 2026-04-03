@@ -1,5 +1,5 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "dolapo-mosuro-portfolio",
   "version": "1.0.0",
   "description": "Portfolio",
   "source": "src/index.html",
@@ -11,15 +11,8 @@
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
-  },
   "author": "Microsoft",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -30,7 +23,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.7",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "parcel": "^2.7.0",
     "prettier": "^2.7.1",

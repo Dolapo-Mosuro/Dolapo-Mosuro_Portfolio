@@ -44,7 +44,7 @@ const projectList = [
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio/",
+    url: "https://sharemeals.vercel.app/",
   },
   {
     title: "Medium Articles",

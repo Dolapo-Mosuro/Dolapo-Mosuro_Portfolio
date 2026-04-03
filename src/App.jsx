@@ -33,7 +33,7 @@ const siteProps = {
   twitter: "dolapo-mosuro",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#587e4e";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
