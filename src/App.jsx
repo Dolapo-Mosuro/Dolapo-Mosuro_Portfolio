@@ -28,13 +28,13 @@ const siteProps = {
   title: "Web Designer & Software Developer",
   email: "mosurodolapo@gmail.com",
   gitHub: "dolapo-mosuro",
-  linkedIn: "dolapo mosuro",
-  medium: "https://medium.com/@dolapomosuro",
+  linkedIn: "dolapo-mosuro",
+  medium: "dolapomosuro",
   twitter: "dolapo-mosuro",
 };
 
-const primaryColor = "#587e4e";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#070807";
+const secondaryColor = "#B7E44A";
 
 const App = () => {
   return (

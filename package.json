@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "source": "src/index.html",
-  "homepage": "http://dolapo-mosuro.github.io/Dolapo-Mosuro",
+  "homepage": "https://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio/",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://dolapo-mosuro.github.io/Dolapo-Mosuro_Portfolio'",
+    "start": "parcel --no-cache",
+    "build": "parcel build --no-cache --public-url ./",
+    "build-gh": "parcel build --no-cache --public-url ./",
+    "lint": "eslint src --ext .js,.jsx",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "author": "Microsoft",
   "license": "ISC",
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

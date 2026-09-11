@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -20,28 +19,29 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/black.jpg";
+import image from "url:../images/black.jpg";
 
-const imageAltText = "image";
+const imageAltText = "Portrait of Dolapo Mosuro";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          position: "absolute",
-          top: "3rem",
-          left: "2rem",
-          width: "17rem",
-          color: "azure",
-        }}
-      >
+    <section id="home" className="hero min-height">
+      <div className="hero-copy">
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <p>
+          I create thoughtful digital experiences that bring together accessible design,
+          reliable code, and clear visual storytelling.
+        </p>
+        <a className="cta-button" href="#portfolio">
+          View my work
+        </a>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+      <div className="hero-portrait-frame">
+        <span className="accent accent-lemon" aria-hidden="true" />
+        <span className="accent accent-green" aria-hidden="true" />
+        <span className="accent accent-red" aria-hidden="true" />
+        <img className="hero-portrait" src={image} alt={imageAltText} />
       </div>
     </section>
   );
