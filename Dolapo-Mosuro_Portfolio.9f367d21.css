@@ -292,8 +292,8 @@ a:focus-visible {
   border-color: var(--lemon);
   color: var(--black);
   aspect-ratio: auto;
-  height: 35rem;
-  transform: translateY(-5px);
+  height: 30rem;
+  transform: translateY(5px);
 }
 
 .project-card-featured {
