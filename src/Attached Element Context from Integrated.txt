@@ -1,0 +1,53 @@
+Attached Element Context from Integrated Browser
+
+Element: article.project-card
+
+URL: http://127.0.0.1:1234/
+
+HTML Path: div#app > div#main > section#portfolio.padding.projects-section > div.projects-grid > article.project-card
+
+Outer HTML:
+```html
+<article class="project-card"><div class="project-card-topline"><span class="project-number">03</span><span class="project-type">Gamified learning platform</span></div><h3>PixelCode Playground</h3><p>A pixel-art coding and AI academy with eight learning tracks, interactive lessons, XP, badges, profiles, and AI guidance.</p><ul class="project-stack" aria-label="PixelCode Playground technologies"><li>React</li><li>TanStack</li><li>TypeScript</li><li>Supabase</li><li>AI SDK</li></ul></article>
+```
+
+Dimensions:
+- top: -67px
+- left: 24px
+- width: 232px
+- height: 579px
+
+CSS:
+```css
+*, :before, :after { box-sizing:inherit }
+.project-card { background:var(--surface);border:1px solid #ffffff24;border-radius:1.25rem;flex-direction:column;grid-column:span 4;min-height:25rem;padding:clamp(1.5rem,3vw,2.25rem);transition:background .18s,border-color .18s,transform .18s;display:flex;position:relative;container-type:inline-size }
+.project-card, .project-card-featured { grid-column:span 6 }
+.project-card:nth-child(3n) { border-color:#d94b4599 }
+
+/* Inherited */
+section { color:var(--white) }
+body { color:var(--white); font-family:Montserrat,sans-serif }
+
+/* Resolved values */
+padding: 24px;
+border-radius: 20px;
+border: 0.8px solid rgb(233, 244, 91);
+transition: background 0.18s, border-color 0.18s, transform 0.18s;
+box-sizing: border-box;
+color: rgb(247, 248, 244);
+container-type: inline-size;
+display: flex;
+flex-direction: column;
+font-family: Montserrat, sans-serif;
+grid-column-end: auto;
+grid-column-start: span 6;
+height: 579.2px;
+min-height: 400px;
+position: relative;
+unicode-bidi: isolate /*UA*/;
+width: 232.4px;
+
+/* CSS variables */
+--white: #f7f8f4;
+--surface: #111310;
+```
