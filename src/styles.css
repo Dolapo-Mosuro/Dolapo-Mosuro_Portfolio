@@ -279,7 +279,8 @@ a:focus-visible {
   aspect-ratio: 1;
   padding: clamp(1.5rem, 3vw, 2.25rem);
   position: relative;
-  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease, height 180ms ease;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease,
+    height 180ms ease;
 }
 
 .project-card:nth-child(3n) {
