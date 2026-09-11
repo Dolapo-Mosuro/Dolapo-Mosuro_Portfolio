@@ -275,13 +275,13 @@ a:focus-visible {
 
 .project-card {
   background: var(--surface);
+  aspect-ratio: 1;
   border: 1px solid #ffffff24;
   border-radius: 1.25rem;
   flex-direction: column;
   grid-column: span 4;
-  min-height: 25rem;
   padding: clamp(1.5rem, 3vw, 2.25rem);
-  transition: background .18s, border-color .18s, transform .18s;
+  transition: background .18s, border-color .18s, transform .18s, height .18s;
   display: flex;
   position: relative;
   container-type: inline-size;
@@ -299,6 +299,8 @@ a:focus-visible {
   background: var(--lemon);
   border-color: var(--lemon);
   color: var(--black);
+  aspect-ratio: auto;
+  height: 35rem;
   transform: translateY(-5px);
 }
 
