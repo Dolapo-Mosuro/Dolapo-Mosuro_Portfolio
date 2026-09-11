@@ -287,9 +287,9 @@ a:focus-visible {
   background: var(--lemon);
   border-color: var(--lemon);
   color: var(--black);
-  transform: translateY(-5px);
+  transform: translateY(5px);
   aspect-ratio: auto;
-  height: 35rem;
+  height: 30rem;
 }
 
 .project-card-featured {
