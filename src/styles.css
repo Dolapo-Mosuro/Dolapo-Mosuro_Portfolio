@@ -276,10 +276,10 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   grid-column: span 4;
-  min-height: 25rem;
+  aspect-ratio: 1;
   padding: clamp(1.5rem, 3vw, 2.25rem);
   position: relative;
-  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease, height 180ms ease;
 }
 
 .project-card:nth-child(3n) {
@@ -295,6 +295,8 @@ a:focus-visible {
   border-color: var(--lemon);
   color: var(--black);
   transform: translateY(-5px);
+  aspect-ratio: auto;
+  height: 35rem;
 }
 
 .project-card-featured {
