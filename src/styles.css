@@ -283,12 +283,6 @@ a:focus-visible {
     height 180ms ease;
 }
 
-
-
-.project-card:nth-child(3n + 2) {
-  border-color: rgba(102, 166, 56, 0.65);
-}
-
 .project-card:hover {
   background: var(--lemon);
   border-color: var(--lemon);
