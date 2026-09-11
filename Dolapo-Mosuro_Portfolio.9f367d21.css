@@ -287,10 +287,6 @@ a:focus-visible {
   container-type: inline-size;
 }
 
-.project-card:nth-child(3n) {
-  border-color: #d94b4599;
-}
-
 .project-card:nth-child(3n+2) {
   border-color: #66a638a6;
 }
